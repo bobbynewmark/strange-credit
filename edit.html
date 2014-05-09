@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script src="https://code.hoi.io/hoist.js"></script>
+    <script type="text/javascript"  src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/ui/1.10.4/jquery-ui.min.js"></script>
+    <script type="text/javascript"  src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script>
+    <script type="text/javascript"  src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.6.0/underscore-min.js"></script>
+    <script type="text/javascript" src="/app.js"></script>
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/app.css" type="text/css" rel="stylesheet" />
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <h1>I am a Hoist App for CMS</h1>
+    <div id="login_pane" >
+      <input id="edit_email">
+      <input id="edit_password">
+      <button id="edit_login">Login</button>
+    </div>
+    <div id="edit_pane" style="display:none">
+      <h2>YOU ARE NOW IN EDIT MODE</h2>
+      <a href="/">Back to start</a>
+      <input id="page_name" /> <button id="edit_load">Load</button>
+      <input id="title" />
+      <textarea id="body">
+      </textarea>
+      <button id="edit_submit">Submit</button>
+    </div>
+</html>
